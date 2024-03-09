@@ -1,0 +1,59 @@
+header {
+    display: flex;
+
+    height: 70px;
+
+    background-color: black;
+
+    .victor {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        padding-inline: 10px;
+
+        height: 100%;
+
+        background-color: white;
+
+        .victor_photo {
+            height: 50px;
+
+            border-radius: 360px;
+        }
+
+        h1 {
+            font-family: var(--font-family);
+            font-weight: var(--font-weight-1);
+            font-size: var(--font-size-1);
+
+            color: black;
+        }
+
+        .verified_icon {
+            height: 30px;
+        }
+    }
+
+    nav {
+        color: white;
+        
+        height: 100%;
+
+        ul {
+            height: 100%;
+
+            display: flex;
+            align-items: center;
+            gap: 25px;
+
+            padding-left: 20px;
+
+            font-weight: var(--font-weight-3);
+            font-size: var(--font-size-2);
+
+            li:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+}
