@@ -1,59 +1,79 @@
 header {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 
-    height: 70px;
+    height: 10vh;
+    min-height: 20px;
 
     background-color: black;
 
-    .victor {
-        display: flex;
-        align-items: center;
-        gap: 5px;
-        padding-inline: 10px;
+    border-bottom: solid 3px white;
 
+    div {
         height: 100%;
 
-        background-color: white;
-
-        .victor_photo {
-            height: 50px;
-
-            border-radius: 360px;
+        display: flex;
+        flex-direction: row;
+        
+        .victor {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            padding-inline: 10px;
+    
+            height: 100%;
+    
+            background-color: white;
+    
+            .victor_photo {
+                height: 70%;
+    
+                border-radius: 360px;
+            }
+    
+            h1 {
+                font-weight: var(--font-weight-1);
+                font-size: var(--font-size-1);
+    
+                color: black;
+            }
+    
+            .verified_icon {
+                height: 50%;
+            }
         }
-
-        h1 {
-            font-family: var(--font-family);
-            font-weight: var(--font-weight-1);
-            font-size: var(--font-size-1);
-
-            color: black;
-        }
-
-        .verified_icon {
-            height: 30px;
+    
+        nav {
+            color: white;
+            background-color: black;
+            
+            height: 100%;
+    
+            ul {
+                height: 100%;
+    
+                display: flex;
+                align-items: center;
+                gap: 25px;
+    
+                padding-left: 20px;
+    
+                font-weight: var(--font-weight-3);
+                font-size: var(--font-size-2);
+    
+                li:hover {
+                    text-decoration: underline;
+                }
+            }
         }
     }
 
-    nav {
+    .darkmode_btn {
         color: white;
-        
+        font-size: 25px;
+        padding-inline: 25px;
         height: 100%;
-
-        ul {
-            height: 100%;
-
-            display: flex;
-            align-items: center;
-            gap: 25px;
-
-            padding-left: 20px;
-
-            font-weight: var(--font-weight-3);
-            font-size: var(--font-size-2);
-
-            li:hover {
-                text-decoration: underline;
-            }
-        }
+        cursor: pointer;
     }
 }

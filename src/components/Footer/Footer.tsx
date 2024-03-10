@@ -9,7 +9,7 @@ export const Footer = () => {
         <footer >
             <div className={styles.footer_victor}>
                 <h1>Victor Hugo</h1>
-                <p>An independent fron-end developer from Brazil.</p>
+                <p>An front-end developer from Brazil.</p>
             </div>
             <div className={styles.footer_more}>
                 <div className={styles.social_media}>
