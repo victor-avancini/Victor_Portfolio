@@ -1,9 +1,9 @@
 footer {
-    background-color: black;
+    background-color: var(--gray-0);
 
-    border-top: white 2px solid;
+    border-top: var(--gray-4) 2px solid;
 
-    color: white;
+    color: var(--gray-4);
 
     padding-inline: 1.875rem;
 
@@ -28,7 +28,7 @@ footer {
 
         p {
             font-size: var(--paragraph);
-            color: #999999;
+            color: var(--gray-1);
         }
     }
 
@@ -39,7 +39,7 @@ footer {
         flex-direction: column;
         gap: 10px;
         justify-content: center;
-        align-items: flex-end;
+        align-items: center;
 
         .social_media {
             display: flex;
@@ -47,7 +47,10 @@ footer {
             gap: 5px;
 
             a{
-                img{
+                display: flex;
+                color: var(--gray-4);
+
+                .icons {
                     height: clamp(1rem, 0.7799rem + 0.9783vw, 1.5625rem);
                 }
             }
@@ -55,7 +58,7 @@ footer {
     }
 
     .more_info {
-        color: #000000;
+        color: var(--gray-0);
         transition: 0.5s;
     }
 }
@@ -63,7 +66,7 @@ footer {
 footer:hover {
     .footer_more{
         .more_info {
-            color: #999999;
+            color: var(--gray-1);
 
             cursor: pointer;
         }

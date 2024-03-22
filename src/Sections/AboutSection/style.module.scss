@@ -1,23 +1,53 @@
 .about_section {
-    background-color: black;
-    color: white;
+    background-color: var(--gray-0);
+    color: var(--gray-4);
 
     height: auto;
 
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: flex-start;
     gap: clamp(0.3125rem, -0.788rem + 4.8913vw, 3.125rem);
 
     padding: 30px clamp(0.625rem, -2.7989rem + 15.2174vw, 9.375rem);
 
     line-height: 2.5;
 
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid var(--gray-4);
 
     .victor_photo {
         height: clamp(9.375rem, 6.9293rem + 10.8696vw, 15.625rem);
 
         border-radius: 360px;
+    }
+
+    .victor_description {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+
+        h1 {
+            color: #384FF4;
+            font-size: clamp(1.125rem, 0.8804rem + 1.087vw, 1.75rem);
+            line-height: 2rem;
+            font-family: var(--font-family2);
+        }
+
+        p {
+            line-height: 2rem;
+            font-size: clamp(0.75rem, 0.6033rem + 0.6522vw, 1.125rem);
+            font-family: var(--font-family2);
+
+            a {
+                color: #384FF4;
+                font-weight: var(--font-weight-1);
+            }
+
+            a:hover {
+                background-color: #384FF4;
+                color: var(--gray-0);
+                font-weight: var(--font-weight-1);
+            }
+        }
     }
 }

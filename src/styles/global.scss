@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Alice&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+HarunoUmi&display=swap');
 
 :root {
     /* colors */
@@ -10,10 +11,11 @@
     --gray-3: #212529;
     --gray-2: #343B41;
     --gray-1: #868E96;
-    --gray-0: #F8F9FA;
+    --gray-0: #F0F0E8;
 
     /* font */
     --font-family: "Alice", serif;
+    --font-family2: "Kaisei HarunoUmi", serif;
 
     /* font-size */
     --font-size-1: clamp(1rem, 0.8043rem + 0.8696vw, 1.5rem);

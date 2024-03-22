@@ -1,5 +1,5 @@
 .homepage_main {
-    background-color: black;
+    background-color: var(--gray-0);
 
     display: flex;
     flex-direction: column;
@@ -13,19 +13,24 @@
     }
 
     h2 {
-        color: #D4D4D4;
+        color: var(--gray-2);
         font-size: 64px;
     }
 
     p {
-        color: #D4D4D4;
+        color: var(--gray-2);
         font-size: 24px;
 
         a {
             position: relative;
+            color: var(--gray-1);
         }
 
-        a::after{
+        a:hover {
+            color: var(--gray-2);
+        }
+
+        a::after {
             content: '';
             position: absolute;
             width: 0;
@@ -42,8 +47,6 @@
     }
 }
 
-  
-  .underline-link:hover::after {
+.underline-link:hover::after {
     width: 100%;
-  }
-  
+}

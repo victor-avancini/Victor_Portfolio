@@ -7,7 +7,7 @@ main {
     gap: 20px;
     text-align: center;
 
-    background-color: var(--color-page-1);
+    background-color: var(--gray-0);
   }
   
   .btn_back {
@@ -15,11 +15,11 @@ main {
     padding: 10px 20px;
     border: 2px solid transparent;
     border-radius: 8px;
-    background-color: black;
+    background-color: var(--gray-4);
     font-weight: var(--font-weight-1);
   
     &:hover {
-      background-color: #333;
+      background-color: var(--gray-2);
       transition: background-color 0.2s ease-in-out;
     }
   }
