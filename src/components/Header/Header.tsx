@@ -1,10 +1,10 @@
 import { Link } from "react-router-dom";
 import Victor from "../../assets/Victor.png";
 import verified from "../../assets/verified.png";
-import styles from "./style.module.scss"
+import styles from "./style.module.scss";
 import { MdDarkMode } from "react-icons/md";
 
-export const Header = () => {
+export const Header = ({ scrollToSection, aboutRef }: any ) => {
     return (
         <header>
             <div>
@@ -15,7 +15,7 @@ export const Header = () => {
                 </Link>
                 <nav>
                     <ul>
-                        <li><Link to="/about">About</Link></li>
+                        <li><button onClick={() => scrollToSection(aboutRef)}>About</button></li>
                         <li><Link to="/projects">Projects</Link></li>
                         <li><Link to="/contact">Contact</Link></li>
                     </ul>

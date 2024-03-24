@@ -10,6 +10,7 @@ export const SkillsSection = () => {
                 <i className="devicon-css3-plain"><p>CSS3</p></i>
                 <i className="devicon-typescript-plain"><p>TypeScript</p></i>
                 <i className="devicon-javascript-plain"><p>JavaScript</p></i>
+                <i className="devicon-python-plain"><p>Python</p></i>
                 <i className="devicon-react-original"><p>React</p></i>
                 <i className="devicon-redux-original"><p>Redux</p></i>
                 <i className="devicon-angular-plain"><p>Angular</p></i>
