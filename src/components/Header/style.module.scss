@@ -3,12 +3,18 @@ header {
     justify-content: space-between;
     align-items: center;
 
-    height: 10vh;
+    height: 50px;
+    width: 100%;
     min-height: 20px;
 
     background-color: var(--gray-0);
 
     border-bottom: solid 3px var(--gray-4);
+
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 100;
 
     div {
         height: 100%;
@@ -19,28 +25,27 @@ header {
         .victor {
             display: flex;
             align-items: center;
-            gap: 5px;
-            padding-inline: 10px;
+            justify-content: center;
     
             height: 100%;
+            aspect-ratio: 1 / 1;
     
             background-color: var(--gray-4);
     
-            .victor_photo {
-                height: 70%;
-    
-                border-radius: 360px;
-            }
-    
             h1 {
                 font-weight: var(--font-weight-1);
-                font-size: var(--font-size-1);
+                font-size: var(--font-size-2);
+
+                height: 100%;
+
+                display: flex;
+                align-items: center;
     
                 color: var(--gray-0);
             }
-    
-            .verified_icon {
-                height: 50%;
+
+            h1:hover {
+                text-decoration: underline;
             }
         }
     
@@ -57,7 +62,7 @@ header {
     
                 display: flex;
                 align-items: center;
-                gap: 25px;
+                gap: clamp(1px, -0.1766rem + 2.1739vw, 1.5625rem);
     
                 padding-left: 20px;
     
@@ -69,7 +74,7 @@ header {
                         border: none;
                         background-color: var(--gray-0);
                         color: var(--gray-4);
-                        font-size: var(--font-size-3);
+                        font-size: var(--font-size-1);
                         font-family: var(--font-family);
                         cursor: pointer;
                     }
