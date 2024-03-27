@@ -14,6 +14,7 @@ export const SkillsSection = () => {
                 <i className="devicon-react-original"><p>React</p></i>
                 <i className="devicon-redux-original"><p>Redux</p></i>
                 <i className="devicon-angular-plain"><p>Angular</p></i>
+                <i className="devicon-wordpress-plain"><p>WordPress</p></i>
                 <i className="devicon-figma-plain"><p>Figma</p></i>
                 <i className="devicon-sass-original"><p>Sass</p></i>
                 <i className="devicon-tailwindcss-original"><p>Tailwindcss</p></i>
