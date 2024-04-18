@@ -24,6 +24,7 @@ export const SkillsSection = () => {
                 <i className="devicon-fortran-original"><p>Fortran</p></i>
                 <i className="devicon-nodejs-plain"><p>Nodejs</p></i>
                 <i className="devicon-express-original"><p>Express</p></i>
+                <i className="devicon-prisma-original"><p>Prisma</p></i>
                 <i className="devicon-postgresql-plain"><p>PostgreSQL</p></i>
                 <i className="devicon-dbeaver-plain"><p>DBeaver</p></i>
             </div>

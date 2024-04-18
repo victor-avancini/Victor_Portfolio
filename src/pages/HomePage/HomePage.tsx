@@ -5,7 +5,6 @@ import { SkillsSection } from "../../Sections/SkillsSection/SkillsSection";
 import { RefObject, useRef } from "react";
 import { IntroSection } from "../../Sections/IntroSection/IntroSection";
 import { ProjectSection } from "../../Sections/ProjectsSection/ProjectSection";
-import { ContactSection } from "../../Sections/ContactSection/ContactSection";
 
 export const HomePage = () => {
     const aboutSectionRef = useRef(null);
@@ -26,7 +25,6 @@ export const HomePage = () => {
             <div ref={aboutSectionRef}><AboutSection /></div>
             <SkillsSection />
             <div ref={projectSectionRef}><ProjectSection /></div>
-            <div ref={contactSectionRef}><ContactSection /></div>
             <Footer />
         </>
     )

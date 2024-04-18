@@ -3,10 +3,9 @@
 
 :root {
     /* colors */
-    --color-primary: #345B2C;
-    --color-primary-focus: #486a41;
-    --color-primary-negative: #D6AC5E;
-    --color-page-1: #fff9eb;
+    --color-title: #FF1547;
+    --color-text-hover: #0000ffb4;
+    --color-text: #384FF4;
     --gray-4: #121214;
     --gray-3: #212529;
     --gray-2: #343B41;
@@ -28,9 +27,36 @@
     --font-weight-3: 400;
 }
 
+:dark-mode:root{
+    /* colors */
+    --color-title: #FF1547;
+    --color-text-hover: #0000ffb4;
+    --color-text: #384FF4;
+    --gray-0: #121214;
+    --gray-1: #212529;
+    --gray-2: #343B41;
+    --gray-3: #868E96;
+    --gray-4: #F0F0E8;
+
+    /* font */
+    --font-family: "Kaisei HarunoUmi", serif;
+
+    /* font-size */
+    --font-size-1: clamp(1rem, 0.8043rem + 0.8696vw, 1.5rem);
+    --font-size-2: clamp(0.75rem, 0.5543rem + 0.8696vw, 1.25rem);
+    --font-size-3: clamp(1rem, 0.9565rem + 1.3043vw, 2rem);
+    --paragraph: clamp(0.5rem, 0.3043rem + 0.8696vw, 1rem);
+
+    /* font-weight */
+    --font-weight-1: 800;
+    --font-weight-2: 200;
+    --font-weight-3: 400;
+
+}
+
 html,
 body {
     display: block;
     overflow-x: hidden;
-    font-family: var(--font-family2);
+    font-family: var(--font-family);
 }

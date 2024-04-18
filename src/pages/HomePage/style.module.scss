@@ -10,7 +10,7 @@
     padding: 100px 50px;
 
     h1 {
-        color: #FF1547;
+        color: var(--color-title);
         font-size: 36px;
     }
 
@@ -39,7 +39,7 @@
             height: 10px;
             bottom: 0px;
             left: 0;
-            background-color: #0000ffb4;
+            background-color: var(--color-text-hover);
             transition: width 0.3s ease-in-out;
         }
 
