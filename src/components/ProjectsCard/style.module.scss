@@ -33,7 +33,7 @@
         }
     }
 
-    .links {
+    .liveUrl {
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -41,8 +41,7 @@
 
         a {
             display: block;
-            font-size: 1.5em;
-            font-style: italic;
+            font-size: 1.2em;
             font-weight: var(--font-weight-3);
             color: var(--gray-2);
         }
@@ -55,8 +54,13 @@
         .technologies {
             display: flex;
             gap: 10px;
-            font-size: 2em;
+            font-size: 1.5em;
             color: var(--gray-4);
+        }
+
+        .githubUrl {
+            display: flex;
+            padding-right: 5px;
         }
     }
 }
