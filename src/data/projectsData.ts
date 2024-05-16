@@ -5,10 +5,41 @@ import BurguerKenzie from "../assets/BurguerKenzie.png";
 import OpenMusic from "../assets/Open_Music.png";
 import KenzieFlix from "../assets/KenzieFlix.png";
 import GenericSite from "../assets/Generic_Site.png";
+import Bandeiras from "../assets/bandeiras.png";
 
 export const projects: Project[] = [
   {
     id: 1,
+    name: "Bandeiras Brasil (Developing)",
+    description: "Descrição do Projeto 1",
+    imageUrl: Bandeiras,
+    liveUrl: "https://bandeiras-brasil.vercel.app/",
+    githubUrl: "https://github.com/victor-avancini/bandeiras_brasil",
+    technologies: [
+      {
+        id: 1,
+        name: "React",
+        link: "devicon-react-original colored"
+      },
+      {
+        id: 2,
+        name: "HTML5",
+        link: "devicon-html5-plain colored"
+      },
+      {
+        id: 3,
+        name: "Sass",
+        link: "devicon-sass-original colored"
+      },
+      {
+        id: 4,
+        name: "TypeScript",
+        link: "devicon-javascript-plain colored"
+      },
+    ]
+  },
+  {
+    id: 2,
     name: "Kenzie Hub",
     description: "Descrição do Projeto 1",
     imageUrl: KenzieHub,
@@ -38,7 +69,7 @@ export const projects: Project[] = [
     ]
   },
   {
-    id: 2,
+    id: 3,
     name: "Burguer Kenzie",
     description: "Descrição do Projeto 2",
     imageUrl: BurguerKenzie,
@@ -69,7 +100,7 @@ export const projects: Project[] = [
   },
 
   {
-    id: 3,
+    id: 4,
     name: "Open Music",
     description: "Descrição do Projeto",
     imageUrl: OpenMusic,
@@ -95,7 +126,7 @@ export const projects: Project[] = [
   },
 
   {
-    id: 4,
+    id: 5,
     name: "Kenzie Flix",
     description: "Descrição do Projeto",
     imageUrl: KenzieFlix,
@@ -116,7 +147,7 @@ export const projects: Project[] = [
   },
 
   {
-    id: 5,
+    id: 6,
     name: "Generic Site",
     description: "Descrição do Projeto",
     imageUrl: GenericSite,
@@ -142,7 +173,7 @@ export const projects: Project[] = [
   },
 
   {
-    id: 6,
+    id: 7,
     name: "Generic portfolio",
     description: "Descrição do Projeto 2",
     imageUrl: Portfólio,
@@ -171,4 +202,5 @@ export const projects: Project[] = [
       },
     ]
   },
+
 ];
