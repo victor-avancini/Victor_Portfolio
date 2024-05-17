@@ -1,16 +1,15 @@
 import { Project } from "../interfaces/projects.interfaces";
-import KenzieHub from "../assets/KenzieHub.png";
-import Portfólio from "../assets/Portfólio.png";
-import BurguerKenzie from "../assets/BurguerKenzie.png";
-import OpenMusic from "../assets/Open_Music.png";
-import KenzieFlix from "../assets/KenzieFlix.png";
-import GenericSite from "../assets/Generic_Site.png";
-import Bandeiras from "../assets/bandeiras.png";
+import KenzieHub from "../assets/kenzie_hub.png";
+import BurguerKenzie from "../assets/kenzie_burguer.png";
+import OpenMusic from "../assets/open_music.png";
+import KenzieFlix from "../assets/kenzie_flix.png";
+import GenericSite from "../assets/generic_site.png";
+import Bandeiras from "../assets/bandeiras_do_brasil.png";
 
 export const projects: Project[] = [
   {
     id: 1,
-    name: "Bandeiras Brasil (Developing)",
+    name: "Bandeiras Brasil",
     description: "Descrição do Projeto 1",
     imageUrl: Bandeiras,
     liveUrl: "https://bandeiras-brasil.vercel.app/",
@@ -171,36 +170,4 @@ export const projects: Project[] = [
       },
     ]
   },
-
-  {
-    id: 7,
-    name: "Generic portfolio",
-    description: "Descrição do Projeto 2",
-    imageUrl: Portfólio,
-    liveUrl: "https://portfolio-template-victor-avancini.vercel.app/",
-    githubUrl: "https://github.com/Kenzie-Academy-Brasil-Developers/m3-s1-entrega-portfolio-template-victor-avancini",
-    technologies: [
-      {
-        id: 1,
-        name: "React",
-        link: "devicon-react-original colored"
-      },
-      {
-        id: 2,
-        name: "HTML5",
-        link: "devicon-html5-plain colored"
-      },
-      {
-        id: 3,
-        name: "CSS3",
-        link: "devicon-css3-plain colored"
-      },
-      {
-        id: 4,
-        name: "JavaScrip",
-        link: "devicon-javascript-plain colored"
-      },
-    ]
-  },
-
 ];
