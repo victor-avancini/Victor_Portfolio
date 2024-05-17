@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import styles from "./style.module.scss";
 import { HeaderProps } from "../../interfaces/header.interfaces";
 
-export const Header = ({ scrollToSection, aboutRef, projectsRef }: HeaderProps) => {
+export const Header = ({ scrollToSection, aboutRef, projectsRef, skillsRef }: HeaderProps) => {
     return (
         <header>
             <div>
@@ -12,6 +12,7 @@ export const Header = ({ scrollToSection, aboutRef, projectsRef }: HeaderProps) 
                 <nav>
                     <ul>
                         <li><button onClick={() => scrollToSection(aboutRef)}>About</button></li>
+                        <li><button onClick={() => scrollToSection(skillsRef)}>Skills</button></li>
                         <li><button onClick={() => scrollToSection(projectsRef)}>Projects</button></li>
                     </ul>
                 </nav>

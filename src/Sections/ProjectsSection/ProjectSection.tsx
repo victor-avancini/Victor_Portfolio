@@ -1,7 +1,7 @@
 import { Fade } from "react-awesome-reveal";
-import { ProjectCard } from "../../components/ProjectsCard/ProjectCard";
 import { projects } from "../../data/projectsData";
 import styles from "./style.module.scss";
+import { ProjectCard } from "../../components";
 
 export const ProjectSection = () => {
     return (

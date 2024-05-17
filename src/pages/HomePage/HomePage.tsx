@@ -1,15 +1,11 @@
-import { Header } from "../../components/Header/Header";
-import { Footer } from "../../components/Footer/Footer";
-import { AboutSection } from "../../Sections/AboutSection/AboutSection";
-import { SkillsSection } from "../../Sections/SkillsSection/SkillsSection";
 import { RefObject, useRef } from "react";
-import { IntroSection } from "../../Sections/IntroSection/IntroSection";
-import { ProjectSection } from "../../Sections/ProjectsSection/ProjectSection";
+import { AboutSection, IntroSection, ProjectSection, SkillsSection } from "../../Sections";
+import { Footer, Header } from "../../components";
 
 export const HomePage = () => {
     const aboutSectionRef = useRef(null);
     const projectSectionRef = useRef(null);
-    const contactSectionRef = useRef(null);
+    const skillsSectionRef = useRef(null);
 
     const scrollToSection = (sectionRef: RefObject<HTMLElement>) => {
         window.scrollTo({
@@ -20,10 +16,10 @@ export const HomePage = () => {
 
     return (
         <>
-            <Header scrollToSection={scrollToSection} aboutRef={aboutSectionRef} projectsRef={projectSectionRef} contactRef={contactSectionRef} />
+            <Header scrollToSection={scrollToSection} aboutRef={aboutSectionRef} projectsRef={projectSectionRef} skillsRef={skillsSectionRef} />
             <IntroSection />
             <div ref={aboutSectionRef}><AboutSection /></div>
-            <SkillsSection />
+            <div ref={skillsSectionRef}><SkillsSection /></div>
             <div ref={projectSectionRef}><ProjectSection /></div>
             <Footer />
         </>
