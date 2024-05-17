@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 import styles from "./style.module.scss";
-import { MdDarkMode } from "react-icons/md";
 import { HeaderProps } from "../../interfaces/header.interfaces";
 
 export const Header = ({ scrollToSection, aboutRef, projectsRef }: HeaderProps) => {
@@ -17,7 +16,6 @@ export const Header = ({ scrollToSection, aboutRef, projectsRef }: HeaderProps) 
                     </ul>
                 </nav>
             </div>
-            <MdDarkMode className={styles.darkmode_btn} />
         </header>
     )
 }
