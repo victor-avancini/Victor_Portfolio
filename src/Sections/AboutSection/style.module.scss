@@ -9,11 +9,11 @@
     align-items: flex-start;
     gap: clamp(0.3125rem, -0.788rem + 4.8913vw, 3.125rem);
 
-    padding: 30px clamp(0.625rem, -2.7989rem + 15.2174vw, 9.375rem);
+    padding: 100px clamp(0.625rem, -2.7989rem + 15.2174vw, 9.375rem);
 
     line-height: 2.5;
 
-    border-bottom: 1px solid var(--gray-4);
+    border-bottom: 1px dashed #bbb;
 
     .victor {
         display: flex;
@@ -71,7 +71,7 @@
 
         h1 {
             color: var(--color-text);
-            font-size: clamp(1.125rem, 0.8804rem + 1.087vw, 1.75rem);
+            font-size: var(--font-size-3);
             line-height: 2rem;
             font-family: var(--font-family2);
         }

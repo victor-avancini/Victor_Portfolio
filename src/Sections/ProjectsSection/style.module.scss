@@ -1,7 +1,7 @@
 .project_section {
-    border-top: 1px solid var(--gray-4);
-    padding: 50px 0px;
-    width: 100%;
+    border-top: 1px dashed #bbb;
+    padding: 100px 50px;
+    // width: 80%;
 
     background-color: var(--gray-0);
 
@@ -11,9 +11,9 @@
 
     h1 {
         padding-left: 0.8rem;
-        font-weight: var(--font-weight-2);
-        color: var(--gray-4);
+        color: var(--color-text);
         font-size: var(--font-size-3);
+        font-family: var(--font-family2);
     }
 
     .projects {
