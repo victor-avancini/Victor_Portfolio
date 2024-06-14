@@ -1,9 +1,9 @@
 import { Project } from "../interfaces/projects.interfaces";
 import KenzieHub from "../assets/kenzie_hub.png";
 import BurguerKenzie from "../assets/kenzie_burguer.png";
-import OpenMusic from "../assets/open_music.png";
+import OpenMusic from "../assets/Open_Music.png";
 import KenzieFlix from "../assets/kenzie_flix.png";
-import GenericSite from "../assets/generic_site.png";
+import GenericSite from "../assets/Generic_Site.png";
 import Bandeiras from "../assets/bandeiras_do_brasil.png";
 
 export const projects: Project[] = [
@@ -97,7 +97,6 @@ export const projects: Project[] = [
       },
     ]
   },
-
   {
     id: 4,
     name: "Open Music",
@@ -123,7 +122,6 @@ export const projects: Project[] = [
       },
     ]
   },
-
   {
     id: 5,
     name: "Kenzie Flix",
@@ -144,7 +142,6 @@ export const projects: Project[] = [
       },
     ]
   },
-
   {
     id: 6,
     name: "Generic Site",
